@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  domain: MyString
+  note: MyString
+  not_before: 2017-07-14 20:59:05
+  not_after: 2017-07-14 20:59:05
+  updated_at: 2017-07-14 20:59:05
+
+two:
+  domain: MyString
+  note: MyString
+  not_before: 2017-07-14 20:59:05
+  not_after: 2017-07-14 20:59:05
+  updated_at: 2017-07-14 20:59:05

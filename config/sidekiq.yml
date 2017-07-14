@@ -1,0 +1,8 @@
+---
+:concurrency: 5
+:queues:
+  - default
+:schedule:
+  certificate_scheduler:
+    cron: '0 */6 * * *'
+    class: Scheduler::CertificateScheduler

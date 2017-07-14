@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Domain:</strong>
+  <%= @instance.domain %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @instance.note %>
+</p>
+
+<p>
+  <strong>Not before:</strong>
+  <%= @instance.not_before %>
+</p>
+
+<p>
+  <strong>Not after:</strong>
+  <%= @instance.not_after %>
+</p>
+
+<p>
+  <strong>Updated at:</strong>
+  <%= @instance.updated_at %>
+</p>
+
+<%= link_to 'Edit', edit_instance_path(@instance) %> |
+<%= link_to 'Back', instances_path %>
